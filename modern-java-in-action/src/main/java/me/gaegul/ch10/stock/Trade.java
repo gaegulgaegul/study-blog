@@ -1,4 +1,4 @@
-package me.gaegul.ch10.methodChain;
+package me.gaegul.ch10.stock;
 
 import lombok.Getter;
 import lombok.Setter;

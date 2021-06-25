@@ -1,5 +1,7 @@
 package me.gaegul.ch10.methodChain;
 
+import me.gaegul.ch10.stock.Order;
+
 import static me.gaegul.ch10.methodChain.MethodChainingOrderBuilder.forCustomer;
 
 public class StockApp {

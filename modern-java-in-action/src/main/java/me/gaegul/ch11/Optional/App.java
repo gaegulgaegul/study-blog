@@ -1,6 +1,10 @@
 package me.gaegul.ch11.Optional;
 
+import java.util.List;
 import java.util.Optional;
+import java.util.Set;
+
+import static java.util.stream.Collectors.toSet;
 
 public class App {
 
@@ -8,6 +12,13 @@ public class App {
         createOptional();
         mapWithOptional();
         getCarInsuranceName(Optional.ofNullable(new Person()));
+        getCarInsuranceNames(List.of(new Person()));
+
+        nullSafeFindCheapestInsurance(Optional.ofNullable(new Person()), Optional.ofNullable(new Car()));
+        nullSafeFindCheapestInsuranceWithFlatMap(Optional.ofNullable(new Person()), Optional.ofNullable(new Car()));
+
+        Optional.ofNullable(new Insurance()).filter(insurance -> "CambridgeInsurance".equals(insurance.getName()))
+                .ifPresent(x -> System.out.println("ok"));
     }
 
     public static void createOptional() {
@@ -31,4 +42,37 @@ public class App {
                 .map(Insurance::getName)
                 .orElse("Unknown");
     }
+
+    public static Set<String> getCarInsuranceNames(List<Person> persons) {
+        return persons.stream()
+                .map(Person::getCar)
+                .map(optCar -> optCar.flatMap(Car::getInsurance))
+                .map(optIns -> optIns.map(Insurance::getName))
+                .flatMap(Optional::stream)
+                .collect(toSet());
+    }
+
+    public static Insurance findCheapestInsurance(Person person, Car car) {
+        Insurance CheapestCompany = new Insurance();
+        return CheapestCompany;
+    }
+
+    public static Optional<Insurance> nullSafeFindCheapestInsurance(Optional<Person> person, Optional<Car> car) {
+        if (person.isPresent() && car.isPresent()) {
+            return Optional.of(findCheapestInsurance(person.get(), car.get()));
+        }
+        return Optional.empty();
+    }
+
+    public static Optional<Insurance> nullSafeFindCheapestInsuranceWithFlatMap(Optional<Person> person, Optional<Car> car) {
+        return person.flatMap(p -> car.map(c -> findCheapestInsurance(p, c)));
+    }
+
+   public static Optional<Integer> stringToInt(String s) {
+        try {
+            return Optional.of(Integer.parseInt(s));
+        } catch (NumberFormatException e) {
+            return Optional.empty();
+        }
+   }
 }

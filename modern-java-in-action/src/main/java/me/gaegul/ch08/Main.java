@@ -1,13 +1,10 @@
 package me.gaegul.ch08;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 import static java.util.Map.*;
 
-public class Main {
+public class  Main {
 
     public static void main(String[] args) {
         List<String> asList = Arrays.asList("Raphael", "Olivia", "Thibaut");

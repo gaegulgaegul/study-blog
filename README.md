@@ -15,3 +15,4 @@
     - [chapter 9. 리펙터링, 테스팅, 디버깅](./modern-java-in-action/src/main/java/me/gaegul/ch09/README.md)
     - [chapter 10. 람다를 이용한 도메인 전용 언어](./modern-java-in-action/src/main/java/me/gaegul/ch10/README.md)
     - [chapter 11. null 대신 Optional 클래스](./modern-java-in-action/src/main/java/me/gaegul/ch11/README.md)
+    - [chapter 12. 새로운 날짜와 시간 API](./modern-java-in-action/src/main/java/me/gaegul/ch12/README.md)

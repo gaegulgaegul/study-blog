@@ -11,6 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="expenses" target="1.5" />
       <module name="modern-java-in-action" target="11" />
     </bytecodeTargetLevel>
   </component>

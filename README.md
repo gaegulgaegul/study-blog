@@ -1,6 +1,7 @@
 # 사내 스터디 기록
 
 ## 모던 자바 인 액션
+![java 11](https://img.shields.io/badge/language-java%2011-brightgreen)
 
 - 기간 : `2021.06.12 ~`
 - 내용 정리

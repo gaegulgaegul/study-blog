@@ -1,22 +1,22 @@
 package me.gaegul.ch16;
 
 import java.util.Random;
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.Future;
 
 import static me.gaegul.ch16.Util.delay;
 
-public class AsyncShop {
+public class Shop {
     private final String name;
     private final Random random;
 
-    public AsyncShop(String name) {
+    public Shop(String name) {
         this.name = name;
         this.random = new Random(name.charAt(0) * name.charAt(1) * name.charAt(2));
     }
 
-    public double getPrice(String product) {
-        return calculatePrice(product);
+    public String getPrice(String product) {
+        double price = calculatePrice(product);
+        Discount.Code code = Discount.Code.values()[random.nextInt(Discount.Code.values().length)];
+        return name + ":" + price + ":" + code;
     }
 
     private double calculatePrice(String product) {
@@ -24,11 +24,8 @@ public class AsyncShop {
         return random.nextDouble() * product.charAt(0) + product.charAt(1);
     }
 
-    public Future<Double> getPriceAsync(String product) {
-        return CompletableFuture.supplyAsync(() -> calculatePrice(product));
+    public String getName() {
+        return name;
     }
 
-    public String getName() {
-        return this.name;
-    }
 }

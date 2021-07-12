@@ -22,3 +22,4 @@
     - [chapter 15. CompletableFuture와 리액티브 프로그래밍 컨셉의 기초](./modern-java-in-action/modern-java-in-action-source/src/main/java/me/gaegul/ch15/README.md)
     - [chapter 16. CompletableFuture : 안정적 비동기 프로그래밍](./modern-java-in-action/modern-java-in-action-source/src/main/java/me/gaegul/ch16/README.md)
     - [chapter 17. 리액티브 프로그래밍](./modern-java-in-action/modern-java-in-action-source/src/main/java/me/gaegul/ch17/README.md)
+    - [chapter 18. 함수형 관점으로 생각하기](./modern-java-in-action/modern-java-in-action-source/src/main/java/me/gaegul/ch18/README.md)

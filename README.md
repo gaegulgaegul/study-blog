@@ -3,7 +3,7 @@
 ## 모던 자바 인 액션
 ![java 11](https://img.shields.io/badge/language-java%2011-brightgreen)
 
-- 기간 : `2021.06.12 ~`
+- 기간 : `2021.06.12 ~ 2021.07.17`
 - 내용 정리
     - [chapter 1. 자바 8, 9, 10, 11 : 무슨 일이 일어나고 있는가?](./modern-java-in-action/modern-java-in-action-source/src/main/java/me/gaegul/ch01/README.md)
     - [chapter 2. 동작 파라미터화 코드 전달하기](./modern-java-in-action/modern-java-in-action-source/src/main/java/me/gaegul/ch02/README.md)

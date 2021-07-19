@@ -26,3 +26,11 @@
     - [chapter 19. 함수형 프로그래밍 기법](./modern-java-in-action/modern-java-in-action-source/src/main/java/me/gaegul/ch19/README.md)
     - [chapter 20. OOP와 FP의 조화 : 자바와 스칼라 비교](./modern-java-in-action/modern-java-in-action-scala/src/main/scala/me/gaegul/ch20/README.md)
     - [chapter 21. 결론 그리고 자바의 미래](./modern-java-in-action/modern-java-in-action-source/src/main/java/me/gaegul/ch21/README.md)
+
+
+## 이펙티브 자바
+![java 11](https://img.shields.io/badge/language-java%2011-brightgreen)
+
+- 기간 : `2021.07.31 ~ `
+- [저장소 정리 방식](https://github.com/gaegulgaegul/study-blog/issues/24)
+- 내용 정리

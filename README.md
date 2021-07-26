@@ -36,3 +36,4 @@
 - 내용 정리
     - [아이템 1. 생성자 대신 팩터리 메서드를 고려하라](./effective-java/src/main/java/me/gaegul/ch02/item01/README.md)
     - [아이템 2. 생성자에 매개변수가 많다면 빌더를 고려하라](./effective-java/src/main/java/me/gaegul/ch02/item02/README.md)
+    - [아이템 4. 인스턴스화를 막으려거든 private 생성자를 사용하라](./effective-java/src/main/java/me/gaegul/ch02/item04/README.md)

@@ -40,3 +40,4 @@
     - [아이템 4. 인스턴스화를 막으려거든 private 생성자를 사용하라](./effective-java/src/main/java/me/gaegul/ch02/item04/README.md)
     - [아이템 5. 자원을 직접 명시하지 않고 의존 객체 주입을 사용하라](./effective-java/src/main/java/me/gaegul/ch02/item05/README.md)
     - [아이템 6. 불필요한 객체 생성을 피하라](./effective-java/src/main/java/me/gaegul/ch02/item06/README.md)
+    - [아이템 7. 다 쓴 객체 참조를 해제하라](./effective-java/src/main/java/me/gaegul/ch02/item07/README.md)

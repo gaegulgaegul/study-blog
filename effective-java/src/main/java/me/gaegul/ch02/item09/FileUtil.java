@@ -8,29 +8,19 @@ public class FileUtil {
     private static int BUFFER_SIZE = 1024;
 
     public static String firstLineOfFile(String path) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader(path));
-        try {
+        try (BufferedReader br = new BufferedReader(new FileReader(path))) {
             return br.readLine();
-        } finally {
-            br.close();
         }
     }
 
     public static void copy(String src, String dst) throws IOException {
-        InputStream in = new FileInputStream(src);
-        try {
-            OutputStream out = new FileOutputStream(dst);
-            try {
-                byte[] buf = new byte[BUFFER_SIZE];
-                int n;
-                while ((n = in.read(buf)) >= 0) {
-
-                }
-            } finally {
-              out.close();
+        try (InputStream in = new FileInputStream(src);
+             OutputStream out = new FileOutputStream(dst)) {
+            byte[] buf = new byte[BUFFER_SIZE];
+            int n;
+            while ((n = in.read(buf)) >= 0) {
+                out.write(buf);
             }
-        } finally {
-            in.close();
         }
     }
 }

@@ -42,3 +42,4 @@
     - [아이템 6. 불필요한 객체 생성을 피하라](./effective-java/src/main/java/me/gaegul/ch02/item06/README.md)
     - [아이템 7. 다 쓴 객체 참조를 해제하라](./effective-java/src/main/java/me/gaegul/ch02/item07/README.md)
     - [아이템 8. finalizer와 cleaner 사용을 피하라](./effective-java/src/main/java/me/gaegul/ch02/item08/README.md)
+    - [아이템 9. try-finally보다 try-with-resources를 사용하라](./effective-java/src/main/java/me/gaegul/ch02/item09/README.md)

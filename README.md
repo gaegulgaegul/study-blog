@@ -44,3 +44,4 @@
     - [아이템 8. finalizer와 cleaner 사용을 피하라](./effective-java/src/main/java/me/gaegul/ch02/item08/README.md)
     - [아이템 9. try-finally보다 try-with-resources를 사용하라](./effective-java/src/main/java/me/gaegul/ch02/item09/README.md)
     - [아이템 10. equals는 일반 규약을 지켜 재정의하라](./effective-java/src/main/java/me/gaegul/ch03/item10/README.md)
+    - [아이템 11. equals를 재정의하려거든 hashCode도 재정의하라](./effective-java/src/main/java/me/gaegul/ch03/item11/README.md)

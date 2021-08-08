@@ -9,21 +9,26 @@
     - 실무에서 Cloneable을 구현한 클래스는 clone 메서드를 public 으로 제공하면 사용자는 당연히 복제가 제대로 이뤄지리라 기대한다.
 - clone 메서드 일반 규약
 
-    > `x.clone() != x`
+    > `x.clone() != x`  
     → 참이다. 원본 객체와 복사된 객체를 서로 다르다.
-
-    `x.clone().getClass() == x.getClass()`
+    >
+    >`x.clone().getClass() == x.getClass()`  
     → 참이다. 하지만 반드시 만족해야 하는 것은 아니다.
-
-    `x.clone().equals(x)`
+    >
+    >`x.clone().equals(x)`  
     → 참이지만 필수는 아니다.
-
-    `x.clone().getClass() == x.getClass()`
-    → 반환하는 객체는 super.clone을 호출해야 참이다.
+    >
+    >`x.clone().getClass() == x.getClass()`  
+    → 반환하는 객체는 super.clone을 호출해야 참이다.  
     → 반환된 객체와 원본 객체는 독립적이여야 한다. 이를 만족하려면 super.clone으로 얻은 객체의 필드 중 하나 이상을 반환 전에 수정해야 할 수도 있다.
 
     - clone 메서드가 super.clone이 아닌 생성자를 호출해 얻은 인스턴스를 반환해도 컴파일러는 문제가 되지 않지만 하위 클래스에서 super.clone을 호출한다면 상위 클래스 타입 인스턴스를 반환하여 문제가 된다.
 - clone 메서드 재정의
+    - 자바가 공변 반환 타이핑을 지원하여 재정의한  메서드의 반환 타입은 상위 클래스의 메서드가 반환하는 타입일 수 있다.
+
+        > *공변 반환 타이핑  
+        → 자신이 상속받은 부모 객체로 타입을 변화시킬 수 있다라는 것*
+
     - Cloneable을 상속받아 구현한다.
     - Object의 clone 메서드는 ClonNotSupportedException(Check-Exception)을 던지도록 선언되어 있다.
     → try-catch로 감싸 예외 처리해야 한다.

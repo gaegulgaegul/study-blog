@@ -47,3 +47,4 @@
     - [아이템 11. equals를 재정의하려거든 hashCode도 재정의하라](./effective-java/src/main/java/me/gaegul/ch03/item11/README.md)
     - [아이템 12. toString을 항상 재정의하라](./effective-java/src/main/java/me/gaegul/ch03/item12/README.md)
     - [아이템 13. clone 재정의는 주의해서 진행하라](./effective-java/src/main/java/me/gaegul/ch03/item13/README.md)
+    - [아이템 14. Comparable을 구현할지 고려하라](./effective-java/src/main/java/me/gaegul/ch03/item14/README.md)

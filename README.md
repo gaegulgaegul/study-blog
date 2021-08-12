@@ -48,3 +48,4 @@
     - [아이템 12. toString을 항상 재정의하라](./effective-java/src/main/java/me/gaegul/ch03/item12/README.md)
     - [아이템 13. clone 재정의는 주의해서 진행하라](./effective-java/src/main/java/me/gaegul/ch03/item13/README.md)
     - [아이템 14. Comparable을 구현할지 고려하라](./effective-java/src/main/java/me/gaegul/ch03/item14/README.md)
+    - [아이템 15. 클래스와 멤버의 접근 권한을 최소화하라](./effective-java/src/main/java/me/gaegul/ch04/item15/README.md)

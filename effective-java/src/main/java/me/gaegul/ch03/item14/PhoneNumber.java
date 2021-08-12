@@ -1,10 +1,17 @@
-package me.gaegul.ch03.item11;
+package me.gaegul.ch03.item14;
 
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
-public final class PhoneNumber {
+import static java.util.Comparator.*;
+
+public final class PhoneNumber implements Comparable<PhoneNumber>{
+
+    private static final Comparator<PhoneNumber> COMPARATOR =
+            comparingInt((PhoneNumber pn) -> pn.areaCode)
+            .thenComparingInt(pn -> pn.prefix)
+            .thenComparingInt(pn -> pn.lineNum);
 
     private final short areaCode, prefix, lineNum;
     private int hashCode;
@@ -58,9 +65,27 @@ public final class PhoneNumber {
         return result;
     }
 
+//    @Override
+//    public int compareTo(PhoneNumber pn) {
+//        int result = Short.compare(areaCode, pn.areaCode);
+//        if (result == 0) {
+//            result = Short.compare(prefix, pn.prefix);
+//            if (result == 0) {
+//                result = Short.compare(lineNum, pn.lineNum);
+//            }
+//        }
+//        return result;
+//    }
+
+    @Override
+    public int compareTo(PhoneNumber pn) {
+        return COMPARATOR.compare(this, pn);
+    }
+
     public static void main(String[] args) {
         Map<PhoneNumber, String> m = new HashMap<>();
         m.put(new PhoneNumber(707, 867, 5309), "제니");
         System.out.println(m.get(new PhoneNumber(707, 867, 5309)));
     }
+
 }

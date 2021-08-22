@@ -57,3 +57,4 @@
     - [아이템 21. 인터페이스는 구현하는 쪽을 생각해 설계하라](./effective-java/src/main/java/me/gaegul/ch04/item21/README.md)
     - [아이템 22. 인터페이스는 타입을 정의하는 용도로만 사용하라](./effective-java/src/main/java/me/gaegul/ch04/item22/README.md)
     - [아이템 23. 태그 달린 클래스보다는 클래스 계층구조를 활용하라](./effective-java/src/main/java/me/gaegul/ch04/item23/README.md)
+    - [아이템 24. 멤버 클래스는 되도록 static으로 만들라](./effective-java/src/main/java/me/gaegul/ch04/item24/README.md)

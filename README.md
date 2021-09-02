@@ -60,3 +60,4 @@
     - [아이템 24. 멤버 클래스는 되도록 static으로 만들라](./effective-java/src/main/java/me/gaegul/ch04/item24/README.md)
     - [아이템 25. 톱레벨 클래스는 한 파일에 하나만 담으라](./effective-java/src/main/java/me/gaegul/ch04/item25/README.md)
     - [아이템 26. 로 타입은 사용하지 말라](./effective-java/src/main/java/me/gaegul/ch05/item26/README.md)
+    - [아이템 27. 비검사 경고를 제거하라](./effective-java/src/main/java/me/gaegul/ch05/item27/README.md)

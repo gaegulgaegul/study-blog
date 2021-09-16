@@ -65,3 +65,4 @@
     - [아이템 29. 이왕이면 제네릭 타입으로 만들라](./effective-java/src/main/java/me/gaegul/ch05/item29/README.md)
     - [아이템 30. 이왕이면 제네릭 메서드로 만들라](./effective-java/src/main/java/me/gaegul/ch05/item30/README.md)
     - [아이템 31. 한정적 와일드카드를 사용해 API 유연성을 높이라](./effective-java/src/main/java/me/gaegul/ch05/item31/README.md)
+    - [아이템 33. 타입 안전 이종 컨테이너를 고려하라](./effective-java/src/main/java/me/gaegul/ch05/item33/README.md)

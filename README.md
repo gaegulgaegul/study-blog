@@ -70,3 +70,4 @@
     - [아이템 34. int 상수 대신 열거 타입을 사용하라](./effective-java/src/main/java/me/gaegul/ch06/item34/README.md)
     - [아이템 35. ordinal 메서드 대신 인스턴스 필드를 사용하라](./effective-java/src/main/java/me/gaegul/ch06/item35/README.md)
     - [아이템 36. 비트 필드 대신 EnumSet을 사용하라](./effective-java/src/main/java/me/gaegul/ch06/item36/README.md)
+    - [아이템 37. ordinal 인덱싱 대신 EnumMap을 사용하라](./effective-java/src/main/java/me/gaegul/ch06/item37/README.md)

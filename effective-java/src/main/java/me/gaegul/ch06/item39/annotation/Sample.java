@@ -1,4 +1,4 @@
-package me.gaegul.ch06.item39;
+package me.gaegul.ch06.item39.annotation;
 
 public class Sample {
     @Test public static void m1() {} // 성공해야 한다.

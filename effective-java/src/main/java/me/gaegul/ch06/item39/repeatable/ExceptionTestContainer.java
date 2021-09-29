@@ -1,4 +1,4 @@
-package me.gaegul.ch06.item39;
+package me.gaegul.ch06.item39.repeatable;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -7,6 +7,6 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
-public @interface ExceptionTest {
-    Class<? extends Throwable> value();
+public @interface ExceptionTestContainer {
+    ExceptionTest[] value();
 }

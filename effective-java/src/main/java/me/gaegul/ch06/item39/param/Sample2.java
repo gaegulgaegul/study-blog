@@ -1,4 +1,4 @@
-package me.gaegul.ch06.item39;
+package me.gaegul.ch06.item39.param;
 
 public class Sample2 {
 

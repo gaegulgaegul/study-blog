@@ -73,3 +73,4 @@
     - [아이템 37. ordinal 인덱싱 대신 EnumMap을 사용하라](./effective-java/src/main/java/me/gaegul/ch06/item37/README.md)
     - [아이템 38. 확장할 수 있는 열거 타입이 필요하면 인터페이스를 사용하라](./effective-java/src/main/java/me/gaegul/ch06/item38/README.md)
     - [아이템 39. 명명 패턴보다 애너테이션을 사용하라](./effective-java/src/main/java/me/gaegul/ch06/item39/README.md)
+    - [아이템 40. @Override 애너테이션을 일관되게 사용하라](./effective-java/src/main/java/me/gaegul/ch06/item40/README.md)

@@ -78,3 +78,4 @@
     - [아이템 42. 익명 클래스보다는 람다를 사용하라](./effective-java/src/main/java/me/gaegul/ch07/item42/README.md)
     - [아이템 43. 람다보다는 메서드 참조를 사용하라](./effective-java/src/main/java/me/gaegul/ch07/item43/README.md)
     - [아이템 44. 표준 함수형 인터페이스를 사용하라](./effective-java/src/main/java/me/gaegul/ch07/item44/README.md)
+    - [아이템 45. 스트림은 주의해서 사용하라](./effective-java/src/main/java/me/gaegul/ch07/item45/README.md)

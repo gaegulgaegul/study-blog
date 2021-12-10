@@ -81,5 +81,6 @@
     - [아이템 45. 스트림은 주의해서 사용하라](./effective-java/src/main/java/me/gaegul/ch07/item45/README.md)
     - [아이템 46. 스트림에서는 부작용 없는 함수를 사용하라](./effective-java/src/main/java/me/gaegul/ch07/item46/README.md)
     - [아이템 47. 반환 타입으로는 스트림보다 컬렉션이 낫다](./effective-java/src/main/java/me/gaegul/ch07/item47/README.md)
+    - [아이템 48. 스트림 병렬화는 주의해서 적용하라](./effective-java/src/main/java/me/gaegul/ch07/item48/README.md)
     - [아이템 50. 적시에 방어적 복사본을 만들라](./effective-java/src/main/java/me/gaegul/ch08/item50/README.md)
     - [아이템 52. 다중정의는 신중히 사용하라](./effective-java/src/main/java/me/gaegul/ch08/item52/README.md)

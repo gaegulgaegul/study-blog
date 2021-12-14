@@ -84,4 +84,5 @@
     - [아이템 48. 스트림 병렬화는 주의해서 적용하라](./effective-java/src/main/java/me/gaegul/ch07/item48/README.md)
     - [아이템 49. 매개변수가 유효한지 검사하라](./effective-java/src/main/java/me/gaegul/ch08/item49/README.md)
     - [아이템 50. 적시에 방어적 복사본을 만들라](./effective-java/src/main/java/me/gaegul/ch08/item50/README.md)
+    - [아이템 51. 메서드 시그니처를 신중히 설계하라](./effective-java/src/main/java/me/gaegul/ch08/item51/README.md)
     - [아이템 52. 다중정의는 신중히 사용하라](./effective-java/src/main/java/me/gaegul/ch08/item52/README.md)

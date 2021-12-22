@@ -86,3 +86,4 @@
     - [아이템 50. 적시에 방어적 복사본을 만들라](./effective-java/src/main/java/me/gaegul/ch08/item50/README.md)
     - [아이템 51. 메서드 시그니처를 신중히 설계하라](./effective-java/src/main/java/me/gaegul/ch08/item51/README.md)
     - [아이템 52. 다중정의는 신중히 사용하라](./effective-java/src/main/java/me/gaegul/ch08/item52/README.md)
+    - [아이템 56. 아이템 56. 공개된 API 요소에는 항상 문서화 주석을 작성하라](./effective-java/src/main/java/me/gaegul/ch08/item56/README.md)

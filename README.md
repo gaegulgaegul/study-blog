@@ -90,6 +90,7 @@
     - [아이템 54. null이 아닌, 빈 컬렉션이나 배열을 반환하라](./effective-java/src/main/java/me/gaegul/ch08/item54/README.md)
     - [아이템 55. 옵셔널 반환은 신중히 하라](./effective-java/src/main/java/me/gaegul/ch08/item55/README.md)
     - [아이템 56. 공개된 API 요소에는 항상 문서화 주석을 작성하라](./effective-java/src/main/java/me/gaegul/ch08/item56/README.md)
+    - [아이템 57. 지역변수의 범위를 최소화하라](./effective-java/src/main/java/me/gaegul/ch09/item57/README.md)
     - [아이템 61. 박싱된 기본 타입 보다는 기본 타입을 사용하라](./effective-java/src/main/java/me/gaegul/ch09/item61/README.md)
     - [아이템 62. 다른 타입이 적절하다면 문자열 사용을 피하라](./effective-java/src/main/java/me/gaegul/ch09/item62/README.md)
     

@@ -93,4 +93,5 @@
     - [아이템 57. 지역변수의 범위를 최소화하라](./effective-java/src/main/java/me/gaegul/ch09/item57/README.md)
     - [아이템 61. 박싱된 기본 타입 보다는 기본 타입을 사용하라](./effective-java/src/main/java/me/gaegul/ch09/item61/README.md)
     - [아이템 62. 다른 타입이 적절하다면 문자열 사용을 피하라](./effective-java/src/main/java/me/gaegul/ch09/item62/README.md)
+    - [아이템 67. 최적화는 신중히 하라](./effective-java/src/main/java/me/gaegul/ch09/item67/README.md)
     

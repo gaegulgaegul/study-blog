@@ -96,5 +96,6 @@
     - [아이템 60. 정확한 답이 필요하다면 float와 double은 피하라](./effective-java/src/main/java/me/gaegul/ch09/item60/README.md)
     - [아이템 61. 박싱된 기본 타입 보다는 기본 타입을 사용하라](./effective-java/src/main/java/me/gaegul/ch09/item61/README.md)
     - [아이템 62. 다른 타입이 적절하다면 문자열 사용을 피하라](./effective-java/src/main/java/me/gaegul/ch09/item62/README.md)
+    - [아이템 63. 문자열 연결은 느리니 주의하라](./effective-java/src/main/java/me/gaegul/ch09/item63/README.md)
     - [아이템 67. 최적화는 신중히 하라](./effective-java/src/main/java/me/gaegul/ch09/item67/README.md)
     

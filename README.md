@@ -101,4 +101,5 @@
     - [아이템 65. 리플렉션보다는 인터페이스를 사용하라](./effective-java/src/main/java/me/gaegul/ch09/item65/README.md)
     - [아이템 66. 네이티브 메서드는 신중히 사용하라](./effective-java/src/main/java/me/gaegul/ch09/item66/README.md)
     - [아이템 67. 최적화는 신중히 하라](./effective-java/src/main/java/me/gaegul/ch09/item67/README.md)
+    - [아이템 70. 복구할 수 있는 상황에는 검사 예외를, 프로그래밍 오류에는 런타임 예외를 사용하라](./effective-java/src/main/java/me/gaegul/ch10/item70/README.md)
     

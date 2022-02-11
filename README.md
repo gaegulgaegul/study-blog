@@ -107,6 +107,7 @@
     - [아이템 71. 필요 없는 검사 예외 사용은 피하라](./effective-java/src/main/java/me/gaegul/ch10/item71/README.md)
     - [아이템 72. 표준 예외를 사용하라](./effective-java/src/main/java/me/gaegul/ch10/item72/README.md)
     - [아이템 73. 추상화 수준에 맞는 예외를 던지자](./effective-java/src/main/java/me/gaegul/ch10/item73/README.md)
+    - [아이템 74. 메서드가 던지는 모든 예외를 문서화하라](./effective-java/src/main/java/me/gaegul/ch10/item74/README.md)
     - [아이템 76. 가능한 한 실패 원자적으로 만들라](./effective-java/src/main/java/me/gaegul/ch10/item76/README.md)
     - [아이템 77. 예외를 무시하지 말라](./effective-java/src/main/java/me/gaegul/ch10/item77/README.md)
     

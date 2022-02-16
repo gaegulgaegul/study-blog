@@ -111,4 +111,5 @@
     - [아이템 75. 예외의 상세 메시지에 실패 관련 정보를 담으라](./effective-java/src/main/java/me/gaegul/ch10/item75/README.md)
     - [아이템 76. 가능한 한 실패 원자적으로 만들라](./effective-java/src/main/java/me/gaegul/ch10/item76/README.md)
     - [아이템 77. 예외를 무시하지 말라](./effective-java/src/main/java/me/gaegul/ch10/item77/README.md)
+    - [아이템 87. 커스텀 직렬화 형태를 고려해보라](./effective-java/src/main/java/me/gaegul/ch12/item87/README.md)
     
